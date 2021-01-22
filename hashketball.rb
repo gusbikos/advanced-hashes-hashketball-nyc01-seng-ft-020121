@@ -152,7 +152,9 @@ def shoe_size(name_of_player)
 end
 
 
-def team_colors(name_of_team)
-  game_hash
+def team_colors(jersey_colors)
+  if name_of_team == "Brooklyn Nets"
+    return 
+  else return 
   binding.pry
 end
