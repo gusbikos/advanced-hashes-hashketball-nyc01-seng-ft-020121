@@ -163,6 +163,7 @@ end
 
 def team_names
   game_hash.map do |team, team_info|
+    return team_info[:team_name].map
   binding.pry
   end
 end
