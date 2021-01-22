@@ -173,7 +173,7 @@ def player_numbers(name_of_team)
   game_hash.each do |team, team_info|
     team_info.each do |player|
       return name_of_team[player][:number].map
+    binding.pry
     end
-  binding.pry
   end
 end
