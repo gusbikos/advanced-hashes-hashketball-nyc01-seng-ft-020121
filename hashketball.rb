@@ -157,4 +157,5 @@ def team_colors(jersey_colors)
     return game_hash[:home][:colors]
   else return game_hash[:away][:colors]
   end
+  binding.pry
 end
