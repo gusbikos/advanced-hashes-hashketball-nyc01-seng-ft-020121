@@ -159,4 +159,3 @@ def team_colors(jersey_colors)
   end
   binding.pry
 end
-
