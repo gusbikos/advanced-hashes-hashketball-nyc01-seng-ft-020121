@@ -158,3 +158,8 @@ def team_colors(jersey_colors)
   else return game_hash[:away][:colors]
   end
 end
+
+
+
+def team_names
+  return game_hash[:home][:away].map
