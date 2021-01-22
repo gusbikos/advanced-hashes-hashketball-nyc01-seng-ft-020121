@@ -177,8 +177,8 @@ def player_numbers(name_of_team)
         if key == :players
           value.each do |player|
             array.push(player[:number])
-    binding.pry
           end
+          binding.pry
         end
       end
     end
