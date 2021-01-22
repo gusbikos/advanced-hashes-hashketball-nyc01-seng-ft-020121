@@ -166,3 +166,9 @@ def team_names
     return team_info[:team_name].map
   end
 end
+
+
+
+def player_numbers(name_of_team)
+  binding.pry 
+end
