@@ -164,4 +164,5 @@ end
 def team_names
   game_hash.map do |team, team_info|
   binding.pry
+  end
 end
