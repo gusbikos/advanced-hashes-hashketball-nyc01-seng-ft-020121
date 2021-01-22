@@ -163,3 +163,5 @@ end
 
 def team_names
   return game_hash[:home][:away].map
+  binding.pry
+end
