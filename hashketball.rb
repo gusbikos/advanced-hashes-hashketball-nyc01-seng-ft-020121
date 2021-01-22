@@ -170,5 +170,8 @@ end
 
 
 def player_numbers(name_of_team)
+  game_hash.each do |team, team_info|
+    
   binding.pry
+  end
 end
