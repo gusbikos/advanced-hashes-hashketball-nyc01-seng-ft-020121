@@ -170,11 +170,11 @@ end
 
 
 def player_numbers(name_of_team)
-  array = []  
+  array = []
   game_hash.each do |team, team_info|
-    if team_info[:team_name] == array 
+    if team_info[:team_name] == array
       team_info.each do |key, value|
-        if key == :players 
+        if key == :players
           value.each do |player|
             array.push(player[:number])
     binding.pry
