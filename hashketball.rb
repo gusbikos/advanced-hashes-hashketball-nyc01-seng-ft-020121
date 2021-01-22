@@ -150,3 +150,8 @@ def shoe_size(name_of_player)
     end
   end
 end
+
+
+def team_colors(name_of_team)
+  binding.pry
+end
