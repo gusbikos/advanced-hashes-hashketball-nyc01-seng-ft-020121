@@ -184,3 +184,10 @@ def player_numbers(name_of_team)
   end
   return array
 end
+
+
+
+def player_stats(name_of_player)
+  stats = {}
+  binding.pry 
+end
