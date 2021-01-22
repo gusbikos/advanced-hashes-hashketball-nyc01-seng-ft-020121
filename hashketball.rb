@@ -154,7 +154,7 @@ end
 
 def team_colors(jersey_colors)
   if name_of_team == "Brooklyn Nets"
+    binding.pry
     return game_hash[:home][:colors]
   end
-  binding.pry
 end
