@@ -189,5 +189,5 @@ end
 
 def player_stats(name_of_player)
   stats = {}
-  binding.pry 
+  binding.pry
 end
