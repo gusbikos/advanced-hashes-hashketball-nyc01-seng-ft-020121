@@ -192,7 +192,7 @@ def player_stats(name_of_player)
   game_hash.each do |team, team_info|
     team_info.each do |key, value|
       value.each do |numbers|
-        
+
 
   binding.pry
       end
