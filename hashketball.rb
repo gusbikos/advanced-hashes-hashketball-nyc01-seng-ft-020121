@@ -154,7 +154,7 @@ end
 
 def team_colors(jersey_colors)
   if name_of_team == "Brooklyn Nets"
-
+    return [:home][:colors]
 
   end
   binding.pry
