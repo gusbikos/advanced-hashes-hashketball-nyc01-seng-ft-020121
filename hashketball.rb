@@ -153,5 +153,6 @@ end
 
 
 def team_colors(name_of_team)
+  game_hash
   binding.pry
 end
