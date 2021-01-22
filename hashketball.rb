@@ -178,8 +178,8 @@ def player_numbers(name_of_team)
           value.each do |player|
             array.push(player[:number])
           end
-          binding.pry
         end
+        binding.pry
       end
     end
   end
