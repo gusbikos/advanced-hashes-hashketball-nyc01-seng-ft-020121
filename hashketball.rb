@@ -179,8 +179,8 @@ def player_numbers(name_of_team)
             array.push(player[:number])
           end
         end
-        binding.pry
       end
+      binding.pry
     end
   end
   return array
