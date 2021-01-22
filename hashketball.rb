@@ -130,6 +130,20 @@ end
 
 # Write code here
 
-def num_points_scored(name)
+def num_points_scored(person)
+  game_hash.each do |team, team_info|
+    team_info[:players].each do |player|
+      if player[:player_name] == person
+        return player[:points]
+      end
+    end
+  end
+end
+
+
+def shoe_size(name_of_player)
+  game_hash.each do |team, team_info|
+
   binding.pry
+  end
 end
