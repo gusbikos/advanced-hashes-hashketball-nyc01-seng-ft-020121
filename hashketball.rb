@@ -174,6 +174,6 @@ def player_numbers(name_of_team)
     team_info.each do |player|
       return name_of_team + player[:number].map
     end
-  binding.pry
+  bindind.pry
   end
 end
